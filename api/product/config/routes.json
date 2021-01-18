@@ -47,6 +47,14 @@
       "config": {
         "policies": []
       }
+    },
+    {
+      "method": "GET",
+      "path": "/products/:id/reverse_name",
+      "handler": "product.reverse_name",
+      "config": {
+        "policies": []
+      }
     }
   ]
 }
