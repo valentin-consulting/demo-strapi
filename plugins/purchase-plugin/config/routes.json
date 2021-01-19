@@ -2,11 +2,10 @@
   "routes": [
     {
       "method": "GET",
-      "path": "/products/:id/purchases",
-      "handler": "purchase-plugin.index",
+      "path": "/stats",
+      "handler": "purchase-plugin.stats",
       "config": {
-        "policies": [],
-        "prefix": false
+        "policies": []
       }
     }
   ]
