@@ -1,0 +1,13 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/products/:id/purchases",
+      "handler": "purchase-plugin.index",
+      "config": {
+        "policies": [],
+        "prefix": false
+      }
+    }
+  ]
+}
